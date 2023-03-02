@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@adeora/solid-query@0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@adeora/solid-query/-/solid-query-0.19.0.tgz#0cacfef1b6e1eb51326eb26f23d058580904ab2c"
-  integrity sha512-PL1CPhIk52N2oTy++1/I4eZA1lNxagKxBcOZELCel5bcFyj18cv9cQYjUlNwUkbHfPISPUPnBmnn/3bhbt6vZA==
+"@adeora/solid-query@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@adeora/solid-query/-/solid-query-0.20.0.tgz#0130bb2a5dc1b775dd71b1d83038833a340ff57b"
+  integrity sha512-dzDDNtEP+yCzXkwD6Y+V8jY9hos74DeOvqjgEg7zNqEwmPeW5mT3RQ6FQX30kH67m51QTile+bnszkn1MNmt0Q==
   dependencies:
     "@tanstack/query-core" "https://pkg.csb.dev/TanStack/query/commit/bc5a2a16/@tanstack/query-core"
 
@@ -1253,6 +1253,11 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-4.10.1.tgz#c7062747f254e5d5fce98a8cae566c25f9f29fb2"
   integrity sha512-B3tcTxjx196nuAu1GOTKO9cGPUgTFHYRdkPkTS4m5ptb2cejyBlH9X7GOfSt3xlI7p4zAJDshJP4JJivCg9ouA==
 
+"@prpc/solid@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@prpc/solid/-/solid-0.1.3.tgz#3fa402a7c37db2a2b2ee07af6e42cf9449017abb"
+  integrity sha512-PRbo/S4MDqtbSre6N5ohlYuZurQgyLlM7wNmmLXvuMDFvQAHwXsixNaZZ2ACyCAU3KcgpaBSH2/G85A2FNnPLQ==
+
 "@rollup/plugin-commonjs@^24.0.0":
   version "24.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-24.0.1.tgz#d54ba26a3e3c495dc332bd27a81f7e9e2df46f90"
@@ -1340,16 +1345,6 @@
 "@tanstack/query-core@https://pkg.csb.dev/TanStack/query/commit/bc5a2a16/@tanstack/query-core":
   version "4.24.3"
   resolved "https://pkg.csb.dev/TanStack/query/commit/bc5a2a16/@tanstack/query-core#9e8814d769f5caf52cd406e115b7e2f875e4bed2"
-
-"@trpc/client@^10.12.0":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.12.0.tgz#635b02a2d10ffa07029428f250bcbe19b54a6b63"
-  integrity sha512-CUBRaE0FpYiRnPGkFB9oLD2cdFd5fSzQwPSR7/zXNKMjwdE+5P7q5mtgbh3bFey3lYidmpKDFgYRnl9Cz2Z7OQ==
-
-"@trpc/server@^10.12.0":
-  version "10.12.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.12.0.tgz#0293100080478ec724ab3c27a352ac5cc16285f4"
-  integrity sha512-gD5FCNCIDgx1fuYbCfFQgIYT1HVUzsXtQUrvG+nTLBL19eWJctwHetWYB2b71NmfLvq/b+QSH1OzPq1WvsHeag==
 
 "@types/cookie@^0.5.1":
   version "0.5.1"
@@ -1530,6 +1525,11 @@ acorn@^8.5.0, acorn@^8.6.0, acorn@^8.8.0:
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
   integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==
 
 agent-base@6:
   version "6.0.2"
@@ -1939,6 +1939,11 @@ csstype@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+
+date-fns@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 debug@2.6.9:
   version "2.6.9"
@@ -3865,11 +3870,6 @@ solid-start-node@^0.2.21:
     sirv "^2.0.2"
     terser "^5.16.1"
 
-solid-start-trpc@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/solid-start-trpc/-/solid-start-trpc-0.0.16.tgz#1b2429594fb93da8b1d75049b43dbfb89bddcf29"
-  integrity sha512-99/EGIE0SObmCVhZR00bYpkEQpCDP22YgjalQpVgm0BKy2+tJzEC6vdvOII2Ppa0Fm7iPwc4LDZoFX2E3KYmsg==
-
 solid-start-vercel@^0.2.21:
   version "0.2.22"
   resolved "https://registry.yarnpkg.com/solid-start-vercel/-/solid-start-vercel-0.2.22.tgz#37a9aab1b4c624552bfe0b87e9c0da08f1939ca8"
@@ -3920,11 +3920,6 @@ solid-start@^0.2.21:
     vite-plugin-inspect "^0.7.14"
     vite-plugin-solid "^2.5.0"
     wait-on "^6.0.1"
-
-solid-trpc@0.1.0-sssr.6:
-  version "0.1.0-sssr.6"
-  resolved "https://registry.yarnpkg.com/solid-trpc/-/solid-trpc-0.1.0-sssr.6.tgz#49be11275103b121a705758f805edb292aedb687"
-  integrity sha512-cnuRn9MEcyoKOrw59pEe6Xz+dwCqNzph5if4xMo/+++C5odfg2KXCMDy/++GIGZEVMh3/yu0V73Ri6AWvhZESg==
 
 source-map-js@^1.0.2:
   version "1.0.2"
@@ -4413,6 +4408,11 @@ yargs@^17.5.1:
     string-width "^4.2.3"
     y18n "^5.0.5"
     yargs-parser "^21.1.1"
+
+yarn@^1.22.19:
+  version "1.22.19"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.19.tgz#4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+  integrity sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==
 
 yocto-queue@^0.1.0:
   version "0.1.0"

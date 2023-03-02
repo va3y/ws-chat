@@ -1,9 +1,11 @@
 import {
-  StartServer,
-  createHandler,
-  renderAsync,
+	StartServer,
+	createHandler,
+	renderAsync,
 } from "solid-start/entry-server";
+import { protectedRouteMiddleware } from "./utils/middlewares";
 
 export default createHandler(
-  renderAsync((event) => <StartServer event={event} />)
+	protectedRouteMiddleware,
+	renderAsync((event) => <StartServer event={event} />)
 );
